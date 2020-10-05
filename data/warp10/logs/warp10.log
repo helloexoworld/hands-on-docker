@@ -1,0 +1,74 @@
+2020-10-05T19:35:32,946 main WARN  script.WarpFleetMacroRepository - No validator macro, default macro will reject all URLs.
+2020-10-05T19:35:35,998 main WARN  script.WarpFleetMacroRepository - No validator macro, default macro will reject all URLs.
+"Init leveldb database..."
+
+  ___       __                           ____________ 
+  __ |     / /_____ _______________      __<  /_  __ \
+  __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /
+  __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ / 
+  ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/  
+                           /_/                        
+
+  Revision 2.7.1
+
+########[ Initialized with 1000 time units per millisecond ]########
+2020-10-05 19:35:36.842:INFO:iwsjoejs.Server:jetty-8.y.z-SNAPSHOT
+2020-10-05 19:35:36.884:INFO:iwsjoejs.AbstractConnector:Started SelectChannelConnector@127.0.0.1:45107
+2020-10-05T19:35:36,905 main WARN  script.WarpFleetMacroRepository - No validator macro, default macro will reject all URLs.
+REPORT secret not set, using 'fce6c816-f701-480e-b52b-5ffe38b9baf8'.
+Loaded 0 GTS in 0.042318 ms
+2020-10-05T19:35:37,451 main INFO  sdk.AbstractWarp10Plugin - LOADED plugin 'io.warp10.plugins.warpstudio.WarpStudioPlugin'
+#### standalone.endpoint /0.0.0.0:8080
+2020-10-05 19:35:37.475:INFO::[WarpStudioPlugin 0.0.0.0:8081]: Logging initialized @870ms
+#### warpstudio.endpoint /0.0.0.0:8081
+Web Root URI: jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/
+2020-10-05 19:35:37.569:INFO:iwwoejs.Server:[WarpStudioPlugin 0.0.0.0:8081]: io.warp10.warpstudio.jetty-9.3.z-SNAPSHOT
+2020-10-05 19:35:37.589:INFO:iwwoejsh.ContextHandler:[WarpStudioPlugin 0.0.0.0:8081]: Started ServletContextHandler@65695a50{/,jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/,AVAILABLE}
+2020-10-05 19:35:37.594:INFO:iwwoejs.AbstractConnector:[WarpStudioPlugin 0.0.0.0:8081]: Started Warp 10 WarpStudio Plugin Jetty HTTP Connector@38442c10{HTTP/1.1,[http/1.1, h2c, h2c-17, h2c-16, h2c-15, h2c-14]}{0.0.0.0:8081}
+2020-10-05 19:35:37.594:INFO:iwwoejs.Server:[WarpStudioPlugin 0.0.0.0:8081]: Started @990ms
+io.warp10.warpstudio.org.eclipse.jetty.server.Server@656b0c10 - STARTED
+ += qtp1766094879{STARTED,8<=8<=200,i=3,q=0} - STARTED
+ |   +- 66 qtp1766094879-66 TIMED_WAITING @ sun.misc.Unsafe.park(Native Method) IDLE
+ |   +- 64 qtp1766094879-64 TIMED_WAITING @ sun.misc.Unsafe.park(Native Method) IDLE
+ |   +- 62 qtp1766094879-62 RUNNABLE @ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ |   +- 63 qtp1766094879-63-acceptor-0@55f4195a-Warp 10 WarpStudio Plugin Jetty HTTP Connector@38442c10{HTTP/1.1,[http/1.1, h2c, h2c-17, h2c-16, h2c-15, h2c-14]}{0.0.0.0:8081} RUNNABLE @ sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method) prio=3
+ |   +- 61 qtp1766094879-61 RUNNABLE @ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ |   +- 60 qtp1766094879-60 RUNNABLE @ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ |   +- 65 qtp1766094879-65 TIMED_WAITING @ sun.misc.Unsafe.park(Native Method) IDLE
+ |   +- 59 qtp1766094879-59 RUNNABLE @ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ += Warp 10 WarpStudio Plugin Jetty HTTP Connector@38442c10{HTTP/1.1,[http/1.1, h2c, h2c-17, h2c-16, h2c-15, h2c-14]}{0.0.0.0:8081} - STARTED
+ |   +~ io.warp10.warpstudio.org.eclipse.jetty.server.Server@656b0c10 - STARTED
+ |   +~ qtp1766094879{STARTED,8<=8<=200,i=3,q=0} - STARTED
+ |   += io.warp10.warpstudio.org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@739497e7 - STARTED
+ |   +- io.warp10.warpstudio.org.eclipse.jetty.io.ArrayByteBufferPool@2870443c
+ |   += HttpConnectionFactory@3a7ef180[HTTP/1.1] - STARTED
+ |   |   +- HttpConfiguration@31cdd98e{32768/8192,8192/8192,https://:0,[]}
+ |   += HTTP2CServerConnectionFactory@30261cb3[h2c, h2c-17, h2c-16, h2c-15, h2c-14] - STARTED
+ |   |   +- HttpConfiguration@31cdd98e{32768/8192,8192/8192,https://:0,[]}
+ |   += io.warp10.warpstudio.org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@21d4b857 - STARTED
+ |   |   += io.warp10.warpstudio.org.eclipse.jetty.io.ManagedSelector@46f9a32c id=0 keys=0 selected=0 id=0
+ |   |   |   +- sun.nio.ch.EPollSelectorImpl@3b2b146b keys=0
+ |   |   += io.warp10.warpstudio.org.eclipse.jetty.io.ManagedSelector@37cefbf0 id=1 keys=0 selected=0 id=1
+ |   |   |   +- sun.nio.ch.EPollSelectorImpl@12d9fed7 keys=0
+ |   |   += io.warp10.warpstudio.org.eclipse.jetty.io.ManagedSelector@3c25cee6 id=2 keys=0 selected=0 id=2
+ |   |   |   +- sun.nio.ch.EPollSelectorImpl@3eada266 keys=0
+ |   |   += io.warp10.warpstudio.org.eclipse.jetty.io.ManagedSelector@422a3e1f id=3 keys=0 selected=0 id=3
+ |   |       +- sun.nio.ch.EPollSelectorImpl@17d2df2a keys=0
+ |   +- sun.nio.ch.ServerSocketChannelImpl[/0.0.0.0:8081]
+ |   +- qtp1766094879-63-acceptor-0@55f4195a-Warp 10 WarpStudio Plugin Jetty HTTP Connector@38442c10{HTTP/1.1,[http/1.1, h2c, h2c-17, h2c-16, h2c-15, h2c-14]}{0.0.0.0:8081}
+ += ServletContextHandler@65695a50{/,jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/,AVAILABLE} - STARTED
+ |   += io.warp10.warpstudio.org.eclipse.jetty.servlet.ServletHandler@446df114 - STARTED
+ |   |   += default@5c13d641==io.warp10.warpstudio.org.eclipse.jetty.servlet.DefaultServlet,-1,false - STARTED
+ |   |   |   +- dirAllowed=true
+ |   |   +- [/]=>default
+ |   |
+ |   +> No ClassLoader
+ |   +> Handler attributes ServletContextHandler@65695a50{/,jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/,AVAILABLE}
+ |   |   +- io.warp10.warpstudio.org.eclipse.jetty.server.Executor=qtp1766094879{STARTED,8<=8<=200,i=3,q=0}
+ |   +> Context attributes ServletContextHandler@65695a50{/,jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/,AVAILABLE}
+ |   |   +- io.warp10.warpstudio.org.eclipse.jetty.util.DecoratedObjectFactory=io.warp10.warpstudio.org.eclipse.jetty.util.DecoratedObjectFactory[decorators=1]
+ |   +> Initparams ServletContextHandler@65695a50{/,jar:file:/data/warp10/lib/warp10-plugin-warpstudio-1.0.40.jar!/public_html/,AVAILABLE}
+ |
+ +> io.warp10.WarpClassLoader@71238fc2
+     +- sun.misc.Launcher$AppClassLoader@33909752
+LevelDB was safely closed.
